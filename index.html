@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+        body {
+            background-image: url("fire.gif");
+        }
+        span {
+            background-color: black;
+        }
+        a:hover:after{
+            content: url(fire.gif);
+            display: block;
+        }
+        h1 {text-align: center;font-family: 'Times New Roman', Times, serif;color: hotpink; font-size: 96px;}
+        h2 {text-align: center;font-family: 'Times New Roman', Times, serif;color: hotpink; font-size: 64px;}
+        p {text-align: center;font-family: 'Times New Roman', Times, serif;color: yellow; font-size: 48px;}
+        div {text-align: center;font-family: 'Times New Roman', Times, serif;color: yellow;}
+    </style>
+    <title>drink</title>
+</head>
+<body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+  
+      <audio id="audio" src="baba.mp3"></audio>
+      <h2>click on gif for best experience!!!!!</h2>
+    <img src="spin.gif" width="200" height="200" class="center" onclick="play()">
+    <img src="dancingbaby.gif" width="200" height="200" class="center" onclick="play()">
+    <img src="spin.gif" width="200" height="200" class="center" onclick="play()"">
+</body>
+</html>
